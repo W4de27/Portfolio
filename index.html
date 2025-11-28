@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio : Mohamed Azouagh</title>
+    <link rel="icon" type="image/png" href="images/re-fav.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ********************** Header ************************* -->
+    <header>
+        <div class="header-logo">
+            <a href="#home">
+                <img src="./images/logoo.png" alt="Logo" class="header-logo-image">
+            </a>
+        </div>
+
+        <nav class="main-nav">
+            <a class="item" href="#home">
+                <div data-text="Main page" class="linktext">Home</div>
+            </a>
+            <a class="item" href="#about">
+                <div data-text="What we do" class="linktext">About Me</div>
+            </a>
+            <a class="item" href="#projects">
+                <div data-text="See our works" class="linktext">Projects</div>
+            </a>
+            <a class="item" href="#skills-tech">
+                <div data-text="Dev Power" class="linktext">Skills</div>
+            </a>
+            <a class="item" href="#contact">
+                <div data-text="Get in touch" class="linktext">Contact</div>
+            </a>
+        </nav>
+
+
+        <!-- Hamburger Menu Button (for mobile) -->
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav" id="mobile-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills-tech">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+
+
+
+        <div class="header-profile">
+            <img src="./images/profile-logo.png" alt="Profile" class="header-profile-image">
+        </div>
+
+
+    </header>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="header-empty" id="home"></div>
+
+
+
+    <!-- ***********************  Hero Section ******************************** -->
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Video Background -->
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="./images/video-animation.mp4" type="video/mp4">
+        </video>
+        <!-- <div class="video-overlay"></div> -->
+
+        <!-- Hero Content -->
+        <div class="hero-container">
+            <!-- Left Side - Content -->
+            <div class="hero-content">
+                <h6 class="hero-pre-title">FULL-STACK DEVELOPER</h6>
+                <div class="title-line-decoration"></div> <!-- Add this line -->
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="name-highlight">Mohamed Azouagh</span>
+                </h1>
+
+                <div class="dynamic-text-container">
+                    <div class="typewriter">
+                        <span class="static-text">I specialize in</span>
+                        <span class="dynamic-text" id="dynamicText"></span>
+                        <span class="cursor"></span>
+                    </div>
+                </div>
+
+                <p class="hero-description">
+                    Building innovative digital experiences with cutting-edge technologies
+                    and pixel-perfect execution.
+                </p>
+
+                <div class="hero-buttons">
+                    <div class="button-container-1 first-btn">
+                        <span class="mas">VIEW PROJECTS</span>
+                        <button type="button" name="Hover"><a href="#projects"
+                                style="text-decoration: none;color: white">VIEW
+                                PROJECTS</a></button>
+                    </div>
+
+                    <div class="button-container-1 secondary-btn">
+                        <span class="mas">CONTACT ME</span>
+                        <button type="button" name="Hover"><a href="#contact"
+                                style="text-decoration: none;color: black">CONTACT
+                                ME</a></button>
+                    </div>
+                    <div class="button-container-1 third-btn">
+                        <span class="mas">DOWNLOAD CV</span>
+                        <button type="button" name="Hover"><a href="./CV/W4de27_CV.pdf" download
+                                style="text-decoration: none;color: white">DOWNLOAD CV</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side - Profile Picture -->
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-card">
+                        <div class="profile-image-wrapper">
+                            <img src="./images/personel-image.png" alt="Mohamed Azouagh" class="profile-image">
+                            <div class="profile-border"></div>
+                            <div class="profile-glow"></div>
+                        </div>
+                        <div class="profile-dots">
+                            <div class="dot dot-1"></div>
+                            <div class="dot dot-2"></div>
+                            <div class="dot dot-3"></div>
+                            <div class="dot dot-4"></div>
+                            <div class="dot dot-5"></div>
+                            <div class="dot dot-6"></div>
+                            <div class="dot dot-7"></div>
+                            <div class="dot dot-8"></div>
+                            <div class="dot dot-9"></div>
+                            <div class="dot dot-10"></div>
+                        </div>
+                        <div class="profile-orbits">
+                            <div class="orbit orbit-1"></div>
+                            <div class="orbit orbit-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ***********************  About Section ******************************** -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <!-- Animated Title -->
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-word title-word-1">About</span>
+                    <span class="title-word title-word-2">My</span>
+                    <span class="title-word title-word-3">Expertise</span>
+                </h2>
+                <div class="title-line2"></div>
+            </div>
+
+            <div class="about-content">
+                <!-- Left Side - Text Content -->
+                <div class="about-text">
+                    <div class="intro-card">
+                        <h3>- Who Am I ? -</h3>
+                        <p class="intro-paragraph">
+                            I'm <span class="highlight">Mohamed Azouagh</span>, a dedicated full-stack developer from
+                            Morocco focused on building <span class="highlight">modern, scalable, and cloud-ready applications</span>.
+                            I specialize in Laravel and React, develop real Python projects (CLI & APIs), and continue growing in
+                            cloud computing, cybersecurity fundamentals, and digital transformation concepts.
+                        </p>
+                    </div>
+
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <div class="info-icon">🚀</div>
+                                <h4>My Approach</h4>
+                                <p>Performance-driven development focused on clean code, scalable systems, and secure best practices.</p>
+                            </div>
+
+
+                        <div class="info-card">
+                            <div class="info-icon">🎯</div>
+                            <h4>My Focus</h4>
+                            <p>Building intuitive user interfaces powered by secure, scalable, and reliable backend systems.</p>
+                        </div>
+                    </div>
+
+                    <div class="quote-box">
+                        <div class="quote-icon">“</div>
+                        <p class="quote-text">I believe in writing code that's not just functional, but elegant and
+                            efficient</p>
+                        <div class="quote-bar"></div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Tech Constellation -->
+                <div class="about-visual">
+                    <div class="tech-constellation">
+                        <!-- Constellation Nodes -->
+                        <div class="constellation-node" data-tech="laravel">
+                            <div class="node-core"></div>
+                            <div class="node-pulse"></div>
+                            <div class="tech-card">
+                                <img src="./images/laravel.png" alt="Laravel">
+                                <h4>Laravel</h4>
+                                <div class="title-line3"></div>
+                                <p>PHP Framework</p>
+                            </div>
+                        </div>
+
+                        <div class="constellation-node" data-tech="react">
+                            <div class="node-core"></div>
+                            <div class="node-pulse"></div>
+                            <div class="tech-card">
+                                <img src="./images/react.png" alt="React">
+                                <h4>React</h4>
+                                <div class="title-line3"></div>
+                                <p>Interactive UIs</p>
+                            </div>
+                        </div>
+
+                        <div class="constellation-node" data-tech="python">
+                            <div class="node-core"></div>
+                            <div class="node-pulse"></div>
+                            <div class="tech-card">
+                                <img src="./images/python.png" alt="Python">
+                                <h4>Python</h4>
+                                <div class="title-line3"></div>
+                                <p>CLI & APIs</p>
+                            </div>
+                        </div>
+
+                        <div class="constellation-node" data-tech="tailwind">
+                            <div class="node-core"></div>
+                            <div class="node-pulse"></div>
+                            <div class="tech-card">
+                                <img src="./images/tailwind.png" alt="Tailwind">
+                                <h4>Tailwind</h4>
+                                <div class="title-line3"></div>
+                                <p>CSS Framework</p>
+                            </div>
+                        </div>
+
+                        <div class="constellation-node" data-tech="mysql">
+                            <div class="node-core"></div>
+                            <div class="node-pulse"></div>
+                            <div class="tech-card">
+                                <img src="./images/mysql.png" alt="MySQL">
+                                <h4>MySQL</h4>
+                                <div class="title-line3"></div>
+                                <p>Database Design</p>
+                            </div>
+                        </div>
+
+                        <div class="constellation-node" data-tech="git">
+                            <div class="node-core"></div>
+                            <div class="node-pulse"></div>
+                            <div class="tech-card">
+                                <img src="./images/git.svg" alt="Git">
+                                <h4>Git</h4>
+                                <div class="title-line3"></div>
+                                <p>Version Control</p>
+                            </div>
+                        </div>
+
+                        <!-- Constellation Lines -->
+                        <svg class="constellation-lines" width="100%" height="100%">
+                            <path class="line" d="" />
+                            <path class="line" d="" />
+                            <path class="line" d="" />
+                            <path class="line" d="" />
+                            <path class="line" d="" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ******************* Projects Section ********************************* -->
+
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title" id="my-projects">
+                <span class="title-word title-word-1">My</span>
+                <span class="title-word title-word-2">Projects</span>
+            </h2>
+            <div class="title-line2"></div>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Projects Grid Container -->
+            <div class="projects-grid-container">
+
+
+                <!-- Project 1: AZ-Masim Car Rental -->
+                <div class="pj-card" id="AZ-Masim">
+                    <div class="pj-media-container project-slideshow" id="project-slideshow1">
+                        <img src="./images/a1.png" alt="">
+                        <img src="./images/a2.png" alt="">
+                        <img src="./images/a3.png" alt="">
+                        <img src="./images/a4.png" alt="">
+                        <img src="./images/a5.png" alt="">
+                        <img src="./images/a6.png" alt="">
+                        <img src="./images/a7.png" alt="">
+                        <img src="./images/a8.png" alt="">
+                        <img src="./images/a9.png" alt="">
+                        <img src="./images/a10.png" alt="">
+                        <img src="./images/a11.png" alt="">
+                        <img src="./images/a12.png" alt="">
+                        <img src="./images/a13.png" alt="">
+                        <img src="./images/a14.png" alt="">
+                        <img src="./images/a15.png" alt="">
+                        <img src="./images/a16.png" alt="">
+                        <img src="./images/a17.png" alt="">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">AZ-Masim Car Rental</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">
+                            A modern full-stack car rental web application featuring real-time car availability,
+                            secure reservations, dynamic user dashboards, and an admin panel for managing users,
+                            vehicles, and bookings.
+                        </p>
+
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">Laravel</span>
+                            <span class="pj-tech">React</span>
+                            <span class="pj-tech">Inertia.js</span>
+                            <span class="pj-tech">Tailwind CSS</span>
+                            <span class="pj-tech">MySQL</span>
+                            <span class="pj-tech">Axios</span>
+                            <span class="pj-tech">Laravel Breeze</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/rental-car-app" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            <a href="#AZ-Masim" class="code-link" onclick="showAzmasimCaseStudy()">
+                                <span>Case Study</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M9,18V15H5V9H9V6L15,12L9,18Z" />
+                                </svg> </a>
+                            <a href="#AZ-Masim" class="live-link" onclick="openVideoModal()">
+                                <span>Watch Demo</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 2: PhoneStore -->
+                <div class="pj-card" id="PhoneStore">
+                    <div class="pj-media-container project-slideshow" id="project-slideshow2">
+                        <img src="./images/b1.png" alt="Phone 1">
+                        <img src="./images/b2.png" alt="Phone 2">
+                        <img src="./images/b3.png" alt="Phone 3">
+                        <img src="./images/b4.png" alt="Phone 4">
+                        <img src="./images/b5.png" alt="Phone 5">
+                        <img src="./images/b6.png" alt="Phone 6">
+                        <img src="./images/b7.png" alt="Phone 7">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">PhoneStore – eCommerce App</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">
+                            Modern React eCommerce PWA featuring Redux Toolkit state management,
+                            dynamic product filtering, and a responsive cart system. Built with
+                            Bootstrap 5 for sleek mobile-first design and JSON API integration.
+                        </p>
+
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">React</span>
+                            <span class="pj-tech">Redux Toolkit</span>
+                            <span class="pj-tech">React Router</span>
+                            <span class="pj-tech">JavaScript (ES6+)</span>
+                            <span class="pj-tech">JSON API</span>
+                            <span class="pj-tech">Bootstrap 5</span>
+                            <span class="pj-tech">Axios</span>
+                            <span class="pj-tech">React Toastify</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/Phone-Store" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            <a href="#PhoneStore" class="code-link" onclick="showPhoneStoreCaseStudy()">
+                                <span>Case Study</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M9,18V15H5V9H9V6L15,12L9,18Z" />
+                                </svg>
+                            </a>
+                            <a href="https://w4de27.github.io/Phone-Store/" target="_blank" class="live-link">
+                                <span>Live Demo</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Project 3 -->
+                <div class="pj-card">
+                    <div class="pj-media-container">
+                        <img src="./images/restaurant.png" alt="Restaurant Website" class="pj-screenshot">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">Modern Restaurant Website</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">Responsive and elegant website for a restaurant, showcasing the menu,
+                            chef's
+                            specialties, and contact info.</p>
+
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">HTML</span>
+                            <span class="pj-tech">CSS</span>
+                            <span class="pj-tech">JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/www.restaurant-wade.com" target="_blank"
+                                class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            <a href="https://w4de27.github.io/www.restaurant-wade.com/" target="_blank"
+                                class="live-link">
+                                <span>Live Demo</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="pj-card">
+                    <div class="pj-media-container">
+                        <img src="./images/games.png" alt="Game Download Website" class="pj-screenshot">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">Game Download Platform</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">Interactive and stylish site where users can browse, preview, and
+                            download top PC
+                            games.</p>
+
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">HTML</span>
+                            <span class="pj-tech">CSS</span>
+                            <span class="pj-tech">JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/www.game-watcher.com" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            <a href="https://w4de27.github.io/www.game-watcher.com/" target="_blank" class="live-link">
+                                <span>Live Demo</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="pj-card">
+                    <div class="pj-media-container">
+                        <img src="./images/movies.png" alt="Movie Streaming Website" class="pj-screenshot">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">Elite Movie Streaming</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">A dynamic movie streaming frontend with modern UI to explore, search,
+                            and watch
+                            movies online.</p>
+
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">HTML</span>
+                            <span class="pj-tech">CSS</span>
+                            <span class="pj-tech">JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/www.Elite-Movies.com" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            <a href="https://w4de27.github.io/www.Elite-Movies.com/" target="_blank" class="live-link">
+                                <span>Live Demo</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="pj-card">
+                    <div class="pj-media-container">
+                        <img src="./images/supercars.png" alt="Supercars Gallery" class="pj-screenshot">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">Supercars & Superbikes Gallery</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">A visually rich site that presents high-performance cars and bikes
+                            with images and
+                            specs.</p>
+
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">HTML</span>
+                            <span class="pj-tech">CSS</span>
+                            <span class="pj-tech">JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/MyDream-Vehucle.com" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            <a href="https://w4de27.github.io/MyDream-Vehucle.com/" target="_blank" class="live-link">
+                                <span>Live Demo</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 7: Password Generator -->
+                <div class="pj-card" id="PasswordGenerator">
+                    <div class="pj-media-container project-slideshow" id="project-slideshow3">
+                        <img src="./images/password1.png" alt="Password">
+                        <img src="./images/password2.png" alt="Password">
+                        <img src="./images/password3.png" alt="Password">
+                        <img src="./images/password4.png" alt="Password">
+                        <img src="./images/password5.png" alt="Password">
+                        <img src="./images/password6.png" alt="Password">
+                        <img src="./images/password7.png" alt="Password">
+                        <img src="./images/password8.png" alt="Password">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">Password Generator – CLI Tool</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">
+                            Secure Python-based password generator offering customizable length,
+                            character sets, and instant output. Designed for quick, reliable, and
+                            safe password creation directly from the command line.
+                        </p>
+                
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">Python</span>
+                            <span class="pj-tech">Random</span>
+                            <span class="pj-tech">String</span>
+                            <span class="pj-tech">Rich (UI)</span>
+                        </div>
+                
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/Password-Generator-CLI" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <!-- Project 8: To-Do List -->
+                <div class="pj-card" id="TodoList">
+                    <div class="pj-media-container project-slideshow" id="project-slideshow4">
+                        <img src="./images/todo1.png" alt="To-Do">
+                        <img src="./images/todo2.png" alt="To-Do">
+                        <img src="./images/todo3.png" alt="To-Do">
+                        <img src="./images/todo4.png" alt="To-Do">
+                        <img src="./images/todo5.png" alt="To-Do">
+                        <img src="./images/todo6.png" alt="To-Do">
+                        <img src="./images/todo7.png" alt="To-Do">
+                        <img src="./images/todo8.png" alt="To-Do">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">To-Do List – CLI Task Manager</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">
+                            Interactive command-line task manager built with Python, offering task
+                            creation, completion, deletion, and automatic saving. Clean menu UI with
+                            persistent JSON storage for a smooth and efficient workflow.
+                        </p>
+                
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">Python</span>
+                            <span class="pj-tech">JSON Storage</span>
+                            <span class="pj-tech">OS Module</span>
+                            <span class="pj-tech">Rich (UI)</span>
+                        </div>
+                
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/To-Do-List-CLI" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Project 9: Contacts Book -->
+                <div class="pj-card" id="ContactsBook">
+                    <div class="pj-media-container project-slideshow" id="project-slideshow5">
+                        <img src="./images/contact1.png" alt="Contacts">
+                        <img src="./images/contact2.png" alt="Contacts">
+                        <img src="./images/contact3.png" alt="Contacts">
+                        <img src="./images/contact4.png" alt="Contacts">
+                        <img src="./images/contact5.png" alt="Contacts">
+                        <img src="./images/contact6.png" alt="Contacts">
+                        <img src="./images/contact7.png" alt="Contacts">
+                        <img src="./images/contact8.png" alt="Contacts">
+                        <img src="./images/contact9.png" alt="Contacts">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">Contacts Book – CLI Manager</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">
+                            Python-based contact manager with add, search, update, and delete features.
+                            Includes phone/email validation, clean menu navigation, and persistent JSON
+                            storage for reliable contact management.
+                        </p>
+                
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">Python</span>
+                            <span class="pj-tech">JSON Storage</span>
+                            <span class="pj-tech">Regex Validation</span>
+                            <span class="pj-tech">OS Module</span>
+                        </div>
+                
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/Contacts-Book-CLI" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Project 10: Expense Tracker -->
+                <div class="pj-card" id="ExpenseTracaker">
+                    <div class="pj-media-container project-slideshow" id="project-slideshow6">
+                        <img src="./images/expense1.png" alt="Expense Tracker">
+                        <img src="./images/expense2.png" alt="Expense Tracker">
+                        <img src="./images/expense3.png" alt="Expense Tracker">
+                        <img src="./images/expense4.png" alt="Expense Tracker">
+                        <img src="./images/expense5.png" alt="Expense Tracker">
+                        
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">Expense Tracker – CLI App</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">
+                            Command-line expense tracking system with categorized spending,
+                            monthly summaries, CSV export, and clean terminal navigation.
+                            Built for simplicity, accuracy, and fast daily expense recording.
+                        </p>
+                
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">Python</span>
+                            <span class="pj-tech">CSV Export</span>
+                            <span class="pj-tech">Datetime</span>
+                            <span class="pj-tech">File Handling</span>
+                        </div>
+                
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/Expense-Tracker" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- Project 11: Student Management System -->
+                <div class="pj-card" id="StudentManagementSystem">
+                    <div class="pj-media-container project-slideshow" id="project-slideshow7">
+                        <img src="./images/student1.png" alt="Student Management System">
+                        <img src="./images/student2.png" alt="Student Management System">
+                        <img src="./images/student3.png" alt="Student Management System">
+                        <img src="./images/student4.png" alt="Student Management System">
+                        <img src="./images/student5.png" alt="Student Management System">
+                        <img src="./images/student6.png" alt="Student Management System">
+                        <img src="./images/student7.png" alt="Student Management System">
+                        <img src="./images/student8.png" alt="Student Management System">
+                        <img src="./images/student9.png" alt="Student Management System">
+                        <img src="./images/student10.png" alt="Student Management System">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">Student Manager – CLI System</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">
+                            Full-featured CLI system for managing students with add, update,
+                            search, and delete operations. Includes CSV export, clean data
+                            validation, and structured terminal workflows for efficient use.
+                        </p>
+                
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">Python</span>
+                            <span class="pj-tech">CSV Export</span>
+                            <span class="pj-tech">OS Module</span>
+                            <span class="pj-tech">File Handling</span>
+                            <span class="pj-tech">Data Validation</span>
+                        </div>
+                
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/Student-Management-System" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Project 12: Weather App -->
+                <div class="pj-card" id="WeatherApp">
+                    <div class="pj-media-container project-slideshow" id="project-slideshow8">
+                        <img src="./images/weather1.png" alt="Weather App">
+                        <img src="./images/weather2.png" alt="Weather App">
+                        <img src="./images/weather3.png" alt="Weather App">
+                        <img src="./images/weather4.png" alt="Weather App">
+                        <img src="./images/weather5.png" alt="Weather App">
+                    </div>
+                    <div class="pj-details">
+                        <h3 class="pj-title">WeatherNow – CLI Weather App</h3>
+                        <div class="pj-divider"></div>
+                        <p class="pj-description">
+                            Command-line weather application that fetches real-time forecasts
+                            using API requests. Features location-based lookup, clean terminal
+                            UI, error handling, and modular service-driven architecture for
+                            reliable daily weather insights.
+                        </p>
+                
+                        <div class="pj-tech-tags">
+                            <span class="pj-tech">Python</span>
+                            <span class="pj-tech">Requests API</span>
+                            <span class="pj-tech">JSON Parsing</span>
+                            <span class="pj-tech">Environment Variables</span>
+                            <span class="pj-tech">CLI Interface</span>
+                        </div>
+                
+                        <div class="project-links">
+                            <a href="https://github.com/W4de27/Weather-App" target="_blank" class="code-link">
+                                <span>View Code</span>
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <!-- AZ-Masim Case Study Modal -->
+        <div id="azmasim-case-study-modal" class="azmasim-modal">
+            <div class="azmasim-modal-content">
+                <div class="azmasim-modal-header">
+                    <div class="azmasim-project-badge">FLAGSHIP PROJECT</div>
+                    <span class="azmasim-close-btn" onclick="closeAzmasimCaseStudy()">&times;</span>
+                </div>
+
+                <div class="azmasim-modal-body">
+                    <div class="azmasim-project-hero">
+                        <h3 class="azmasim-project-title">AZ-Masim Car Rental Platform</h3>
+                        <div class="azmasim-project-meta">
+                            <span class="azmasim-project-year">2025</span>
+                            <span class="azmasim-project-timeline">1 Months Development</span>
+                        </div>
+                    </div>
+
+                    <div class="azmasim-case-study-grid">
+                        <!-- Left Column -->
+                        <div class="azmasim-case-study-card azmasim-overview-card">
+                            <div class="azmasim-section-header">
+                                <div class="azmasim-section-emoji">🚀</div>
+                                <h4 class="azmasim-section-title">Project Overview</h4>
+                            </div>
+                            <p class="azmasim-section-description">Full-stack car rental platform with real-time
+                                reservations,
+                                admin dashboard, and role-based access control.</p>
+                            <div class="azmasim-feature-tags">
+                                <span class="azmasim-feature-tag">Real-time Booking</span>
+                                <span class="azmasim-feature-tag">Admin Dashboard</span>
+                                <span class="azmasim-feature-tag">Secure Auth</span>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="azmasim-case-study-card azmasim-tech-card">
+                            <div class="azmasim-section-header">
+                                <div class="azmasim-section-emoji">🛠️</div>
+                                <h4 class="azmasim-section-title">Tech Stack</h4>
+                            </div>
+                            <div class="azmasim-tech-grid">
+                                <div class="azmasim-tech-item">
+                                    <div class="azmasim-tech-logo azmasim-laravel-logo"></div>
+                                    <span class="azmasim-tech-name">Laravel</span>
+                                </div>
+                                <div class="azmasim-tech-item">
+                                    <div class="azmasim-tech-logo azmasim-react-logo"></div>
+                                    <span class="azmasim-tech-name">React</span>
+                                </div>
+                                <div class="azmasim-tech-item">
+                                    <div class="azmasim-tech-logo azmasim-inertia-logo"></div>
+                                    <span class="azmasim-tech-name">Inertia.js</span>
+                                </div>
+                                <div class="azmasim-tech-item">
+                                    <div class="azmasim-tech-logo azmasim-tailwind-logo"></div>
+                                    <span class="azmasim-tech-name">Tailwind</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Full Width Sections -->
+                        <div class="azmasim-case-study-card azmasim-features-card">
+                            <div class="azmasim-section-header">
+                                <div class="azmasim-section-emoji">✨</div>
+                                <h4 class="azmasim-section-title">Key Features</h4>
+                            </div>
+                            <div class="azmasim-features-grid">
+                                <div class="azmasim-feature-item">
+                                    <div class="azmasim-feature-icon">📅</div>
+                                    <h5 class="azmasim-feature-title">Real-time Booking</h5>
+                                    <p class="azmasim-feature-desc">Instant availability checks and reservation system
+                                        with
+                                        calendar integration</p>
+                                </div>
+                                <div class="azmasim-feature-item">
+                                    <div class="azmasim-feature-icon">👑</div>
+                                    <h5 class="azmasim-feature-title">Admin Dashboard</h5>
+                                    <p class="azmasim-feature-desc">Complete control panel for managing cars, users, and
+                                        reservations</p>
+                                </div>
+                                <div class="azmasim-feature-item">
+                                    <div class="azmasim-feature-icon">🛡️</div>
+                                    <h5 class="azmasim-feature-title">Role-based Access</h5>
+                                    <p class="azmasim-feature-desc">Secure authentication with different permission
+                                        levels</p>
+                                </div>
+                                <div class="azmasim-feature-item">
+                                    <div class="azmasim-feature-icon">📱</div>
+                                    <h5 class="azmasim-feature-title">Responsive Design</h5>
+                                    <p class="azmasim-feature-desc">Fully functional on all device sizes</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="azmasim-case-study-card azmasim-results-card">
+                            <div class="azmasim-section-header">
+                                <div class="azmasim-section-emoji">📈</div>
+                                <h4 class="azmasim-section-title">Project Impact</h4>
+                            </div>
+                            <div class="azmasim-results-stats">
+                                <div class="azmasim-stat-item">
+                                    <div class="azmasim-stat-number">70%</div>
+                                    <div class="azmasim-stat-label">Reduction in admin tasks</div>
+                                </div>
+                                <div class="azmasim-stat-item">
+                                    <div class="azmasim-stat-number">500+</div>
+                                    <div class="azmasim-stat-label">Bookings tested</div>
+                                </div>
+                                <div class="azmasim-stat-item">
+                                    <div class="azmasim-stat-number">100+</div>
+                                    <div class="azmasim-stat-label">Cars managed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="azmasim-modal-footer">
+                    <button class="azmasim-code-btn"
+                        onclick="window.open('https://github.com/W4de27/rental-car-app', '_blank')">
+                        <svg viewBox="0 0 24 24" class="azmasim-github-icon">
+                            <path
+                                d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                        </svg>
+                        View Source Code
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Case Study Modal 2 (hidden by default) -->
+        <div id="phonestore-case-study" class="ps-modal">
+            <div class="ps-modal-content">
+                <div class="ps-modal-header">
+                    <div class="ps-badge">REACT SHOWCASE</div>
+                    <span class="ps-close-btn" onclick="closePhoneStoreCaseStudy()">&times;</span>
+                </div>
+
+                <div class="ps-modal-body">
+                    <div class="ps-hero">
+                        <h3 class="ps-title">PhoneStore eCommerce</h3>
+                        <div class="ps-meta">
+                            <span class="ps-meta-item">React + Redux</span>
+                            <span class="ps-meta-item">Frontend Focus</span>
+                        </div>
+                    </div>
+
+                    <div class="ps-grid">
+                        <!-- Left Column - Updated Version -->
+                        <div class="ps-card ps-overview">
+                            <div class="ps-card-header">
+                                <div class="ps-card-icon">🚀</div> <!-- Updated icon -->
+                                <h4 class="ps-card-title">Project Overview</h4>
+                            </div>
+                            <p class="ps-card-text">
+                                Full-featured React eCommerce PWA with Redux Toolkit state management,
+                                featuring real-time cart updates, product filtering, and JSON API integration.
+                                Built with Bootstrap 5 for responsive design.
+                            </p>
+                            <div class="ps-tags">
+                                <span class="ps-tag">Redux Toolkit</span>
+                                <span class="ps-tag">Cart Management</span>
+                                <span class="ps-tag">Product Filtering</span>
+                                <span class="ps-tag">JSON API</span>
+                                <span class="ps-tag">Bootstrap 5</span>
+                                <span class="ps-tag">Responsive PWA</span>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="ps-card ps-tech">
+                            <div class="ps-card-header">
+                                <div class="ps-card-icon">🛠️</div>
+                                <h4 class="ps-card-title">Core Stack</h4>
+                            </div>
+                            <div class="ps-tech-grid">
+                                <!-- Original Items -->
+                                <div class="ps-tech-item">
+                                    <div class="ps-tech-icon ps-react"></div>
+                                    <span class="ps-tech-name">React</span>
+                                </div>
+                                <div class="ps-tech-item">
+                                    <div class="ps-tech-icon ps-redux"></div>
+                                    <span class="ps-tech-name">Redux Toolkit</span>
+                                </div>
+                                <div class="ps-tech-item">
+                                    <div class="ps-tech-icon ps-router"></div>
+                                    <span class="ps-tech-name">React Router</span>
+                                </div>
+                                <div class="ps-tech-item">
+                                    <div class="ps-tech-icon ps-json"></div>
+                                    <span class="ps-tech-name">JSON API</span>
+                                </div>
+
+                                <!-- New Additions -->
+                                <div class="ps-tech-item">
+                                    <div class="ps-tech-icon ps-bootstrap"></div>
+                                    <span class="ps-tech-name">Bootstrap 5</span>
+                                </div>
+                                <div class="ps-tech-item">
+                                    <div class="ps-tech-icon ps-axios"></div>
+                                    <span class="ps-tech-name">Axios</span>
+                                </div>
+                                <div class="ps-tech-item">
+                                    <div class="ps-tech-icon ps-hooks"></div>
+                                    <span class="ps-tech-name">React Hooks</span>
+                                </div>
+                                <div class="ps-tech-item">
+                                    <div class="ps-tech-icon ps-vite"></div>
+                                    <span class="ps-tech-name">Vite</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Full Width Sections -->
+                        <div class="ps-card ps-features">
+                            <div class="ps-card-header">
+                                <div class="ps-card-icon">✨</div>
+                                <h4 class="ps-card-title">Key Features</h4>
+                            </div>
+                            <div class="ps-features-grid">
+                                <div class="ps-feature-card">
+                                    <div class="ps-feature-icon">🛒</div>
+                                    <h5 class="ps-feature-title">Dynamic Cart</h5>
+                                    <p class="ps-feature-desc">Real-time updates for quantities and total pricing using
+                                        Redux
+                                    </p>
+                                </div>
+                                <div class="ps-feature-card">
+                                    <div class="ps-feature-icon">🔍</div>
+                                    <h5 class="ps-feature-title">Product Details</h5>
+                                    <p class="ps-feature-desc">Dedicated pages with full specifications and purchase
+                                        options</p>
+                                </div>
+                                <div class="ps-feature-card">
+                                    <div class="ps-feature-icon">🔄</div>
+                                    <h5 class="ps-feature-title">State Management</h5>
+                                    <p class="ps-feature-desc">Efficient data flow with Redux Toolkit slices and
+                                        selectors</p>
+                                </div>
+                                <div class="ps-feature-card">
+                                    <div class="ps-feature-icon">📲</div>
+                                    <h5 class="ps-feature-title">Responsive UI</h5>
+                                    <p class="ps-feature-desc">Mobile-friendly design for all screen sizes</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ps-card ps-logic">
+                            <div class="ps-card-header">
+                                <div class="ps-card-icon">🧠</div>
+                                <h4 class="ps-card-title">Technical Implementation</h4>
+                            </div>
+                            <div class="ps-logic-points">
+                                <div class="ps-logic-item">
+                                    <div class="ps-logic-icon">⚡</div>
+                                    <p class="ps-logic-text">Redux Toolkit for cart state management (add/remove/update)
+                                    </p>
+                                </div>
+                                <div class="ps-logic-item">
+                                    <div class="ps-logic-icon">🧩</div>
+                                    <p class="ps-logic-text">React Router dynamic routes for product details</p>
+                                </div>
+                                <div class="ps-logic-item">
+                                    <div class="ps-logic-icon">💾</div>
+                                    <p class="ps-logic-text">JSON data structure with API-ready formatting</p>
+                                </div>
+                                <div class="ps-logic-item">
+                                    <div class="ps-logic-icon">🔍</div>
+                                    <p class="ps-logic-text">Real-time product search and filtering</p>
+                                </div>
+                                <div class="ps-logic-item">
+                                    <div class="ps-logic-icon">📱</div>
+                                    <p class="ps-logic-text">Bootstrap 5 responsive grid layout</p>
+                                </div>
+                                <div class="ps-logic-item">
+                                    <div class="ps-logic-icon">🔄</div>
+                                    <p class="ps-logic-text">React Toastify for cart notifications</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="ps-modal-footer">
+                    <button class="ps-code-btn"
+                        onclick="window.open('https://github.com/W4de27/Phone-Store', '_blank')">
+                        <svg class="ps-github-icon" viewBox="0 0 24 24">
+                            <path
+                                d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                        </svg>
+                        View React Code
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Video Modal (Hidden by default) -->
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeVideoModal()">&times;</span>
+                <video controls id="projectVideo">
+                    <source src="./images/azmasim-app-record.mp4" type="video/mp4">
+                    Your browser doesn't support video.
+                </video>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- ####################" Skiils/Technologies Section #######################################" -->
+
+    <section id="skills-tech" class="skills-tech-section">
+        <div class="st-section-header">
+            <h2 class="st-main-title">
+                <span class="st-title-word">Technical</span>
+                <span class="st-title-word">Mastery</span>
+            </h2>
+            <div class="st-title-line"></div>
+        </div>
+
+        <div class="st-categories-container">
+            <!-- Frontend Skills -->
+            <div class="st-category-card">
+                <div class="st-category-header">
+                    <div class="st-category-icon">💻</div>
+                    <h3 class="st-category-title">Frontend Development</h3>
+                </div>
+                <div class="st-skills-grid">
+                    <div class="st-skill-item" data-skill-level="100">
+                        <div class="st-skill-icon st-html5"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">HTML</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="90">
+                        <div class="st-skill-icon st-javascript"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">JavaScript</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="85">
+                        <div class="st-skill-icon st-react"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">React.js</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="st-category-card">
+                <div class="st-category-header">
+                    <div class="st-category-icon">⚙️</div>
+                    <h3 class="st-category-title">Backend Development</h3>
+                </div>
+                <div class="st-skills-grid">
+                    
+                    <div class="st-skill-item" data-skill-level="90">
+                        <div class="st-skill-icon st-laravel"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Laravel</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="90">
+                        <div class="st-skill-icon st-python"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Python</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="85">
+                        <div class="st-skill-icon st-php"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">PHP</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Design & Styling Skills -->
+            <div class="st-category-card">
+                <div class="st-category-header">
+                    <div class="st-category-icon">🎨</div>
+                    <h3 class="st-category-title">Design & Styling</h3>
+                </div>
+                <div class="st-skills-grid">
+                    <div class="st-skill-item" data-skill-level="95">
+                        <div class="st-skill-icon st-css3"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">CSS</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="90">
+                        <div class="st-skill-icon st-tailwind"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Tailwind CSS</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="90">
+                        <div class="st-skill-icon st-bootstrap"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Bootstrap</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Database Skills -->
+            <div class="st-category-card">
+                <div class="st-category-header">
+                    <div class="st-category-icon">🗃️</div>
+                    <h3 class="st-category-title">Database</h3>
+                </div>
+                <div class="st-skills-grid">
+                    <div class="st-skill-item" data-skill-level="95">
+                        <div class="st-skill-icon st-mysql"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">MySQL</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="90">
+                        <div class="st-skill-icon st-mongodb"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">MongoDB</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="70">
+                        <div class="st-skill-icon st-postgresql"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">PostgreSQL</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Platforms -->
+            <div class="st-category-card">
+                <div class="st-category-header">
+                    <div class="st-category-icon">🛠️</div>
+                    <h3 class="st-category-title">Tools & Platforms</h3>
+                </div>
+                <div class="st-skills-grid">
+                    <div class="st-skill-item" data-skill-level="90">
+                        <div class="st-skill-icon st-git"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Git & GitHub</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="85">
+                        <div class="st-skill-icon st-azure"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Microsoft Azure</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="70">
+                        <div class="st-skill-icon st-postman"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Postman</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Other Skills -->
+            <div class="st-category-card">
+                <div class="st-category-header">
+                    <div class="st-category-icon">✨</div>
+                    <h3 class="st-category-title">Other Skills</h3>
+                </div>
+                <div class="st-skills-grid">
+                    <div class="st-skill-item" data-skill-level="85">
+                        <div class="st-skill-icon st-cybersecurity"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Cybersecurity</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="85">
+                        <div class="st-skill-icon st-digital-transformation"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Digital Transformation</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="st-skill-item" data-skill-level="95">
+                        <div class="st-skill-icon st-problem-solving"></div>
+                        <div class="st-skill-info">
+                            <span class="st-skill-name">Problem Solving</span>
+                            <div class="st-progress-container">
+                                <div class="st-progress-bar"></div>
+                                <span class="st-progress-value">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- #####################"" Add this after your skills-tech-section #####################"" -->
+
+
+    <section id="client-testimonials" class="testimonials-section">
+        <div class="ts-section-header">
+            <h2 class="ts-main-title">
+                <span class="ts-title-word">Client</span>
+                <span class="ts-title-word">Testimonials</span>
+            </h2>
+            <div class="ts-title-line"></div>
+            <p class="ts-subtitle">What people say about working with me</p>
+        </div>
+
+        <div class="testimonials-track-container">
+            <div class="testimonials-track">
+
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="tc-text">"Delivered a powerful, well-structured full-stack solution with clean, optimized code. Truly
+                            exceptional work!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">AS</div>
+                            <div class="tca-info">
+                                <h4>Amina Salah</h4>
+                                <p>Startup Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="tc-text">"His Python expertise transformed our idea into a fast, reliable application. Very professional and
+                            detail-oriented!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">RM</div>
+                            <div class="tca-info">
+                                <h4>Rami Moujahid</h4>
+                                <p>Digital Agency CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="tc-text">"Impressed by the cloud deployment skills and smooth Azure setup. Everything worked flawlessly from
+                            day one!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">FA</div>
+                            <div class="tca-info">
+                                <h4>Fadoua Ait</h4>
+                                <p>Software Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="tc-text">"A highly skilled developer who combines creativity with strong backend logic. Results were above
+                            expectations!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">KM</div>
+                            <div class="tca-info">
+                                <h4>Khalid Marouani</h4>
+                                <p>Product Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 5 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                        </div>
+                        <p class="tc-text">"Outstanding understanding of cybersecurity fundamentals. Improved our system stability with clear,
+                            smart solutions!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">LM</div>
+                            <div class="tca-info">
+                                <h4>Lamia Mouss</h4>
+                                <p>Brand Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 6 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="tc-text">"Reliable, fast, and incredibly capable. His approach to digital transformation saved us time and
+                            effort!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">SB</div>
+                            <div class="tca-info">
+                                <h4>Sara Bouz</h4>
+                                <p>Tech Lead</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 7 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="tc-text">"Very smooth collaboration. He delivered a modern UI with a secure and scalable backend
+                            architecture!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">JL</div>
+                            <div class="tca-info">
+                                <h4>Jamal Laaroussi</h4>
+                                <p>Startup Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 8 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                        <p class="tc-text">"Professional, responsive, and focused on quality. The full-stack build was clean, stable, and
+                            perfectly structured!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">EM</div>
+                            <div class="tca-info">
+                                <h4>El Mehdi</h4>
+                                <p>Retail Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 9 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="tc-text">"Brilliant work on the API development and system optimization. Efficient, well-organized, and highly
+                            skilled!"</p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">MA</div>
+                            <div class="tca-info">
+                                <h4>Manar Achraf</h4>
+                                <p>Product Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Testimonial 10 -->
+                <div class="testimonial-card">
+                    <div class="tc-content">
+                        <div class="tc-rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="tc-text">"Excellent problem solver with strong technical versatility. He handled everything from frontend to
+                            cloud effortlessly!"</p>
+                        </p>
+                        <div class="tc-author">
+                            <div class="tca-avatar">TS</div>
+                            <div class="tca-info">
+                                <h4>Tarik Souidi</h4>
+                                <p>Freelance Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ################### Contact Footer Section ######################### -->
+
+    <section id="contact" class="contact-section">
+        <!-- Floating Navigation (Kept exactly as you liked it) -->
+        <div class="floating-nav" id="navigation">
+            <a href="#projects" class="nav-btn">
+                <i class="fas fa-code"></i>
+                <span>Projects</span>
+            </a>
+            <a href="#skills-tech" class="nav-btn">
+                <i class="fas fa-cogs"></i>
+                <span>Skills</span>
+            </a>
+            <a href="#about" class="nav-btn">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+            </a>
+        </div>
+
+        <div class="cs-section-header">
+            <h2 class="cs-main-title">
+                <span class="cs-title-word">Contact</span>
+                <span class="cs-title-word">Us</span>
+            </h2>
+            <div class="cs-title-line"></div>
+        </div>
+
+        <!-- Three Column Grid -->
+        <div class="contact-grid">
+            <!-- Left Column - Logo & Team Text -->
+            <div class="contact-column left-column">
+                <div class="team-card">
+                    <div class="team-logo">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Our Creative Team</h3>
+                    <p>We're a passionate group of developers and designers dedicated to building amazing digital
+                        experiences. Let's create something extraordinary together!</p>
+                </div>
+            </div>
+
+            <!-- Middle Column - Compact Form -->
+            <div class="contact-column middle-column">
+                <div class="contact-form-compact">
+                    <form id="emailForm">
+                        <!-- REQUIRED Web3Forms key -->
+                        <input type="hidden" name="access_key" value="68c81db6-3734-4e57-bd6f-404d2540fe17">
+                    
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Name</label>
+                        </div>
+                    
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                    
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="2" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                    
+                        <button type="submit" class="submit-btn">
+                            Send <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+
+            <!-- Right Column - Social Icons -->
+            <div class="contact-column right-column">
+                <div class="social-icons-container">
+                    <h3>Connect & Follow Us</h3>
+                    <ul class="social-icons">
+                        <li><a href="https://wa.me/212623741864" target="_blank">
+                                <i class="fab fa-whatsapp whatsapp"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/azouagh-mohamed-15765a301/" target="_blank">
+                                <i class="fab fa-linkedin linkedin"></i></a></li>
+                        <li><a href="mailto:wademsi01@gmail.com"><i class="fas fa-envelope email"></i></a></li>
+                        <li><a href="https://github.com/W4de27" target="_blank"><i class="fab fa-github github"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/@wademsi3283" target="_blank"><i
+                                    class="fab fa-youtube youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/share/1JLcTiHD5P/" target="_blank"><i
+                                    class="fab fa-facebook-f facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Add this just before </section> -->
+        <div class="team-footer">
+            <p>© 2025 Our Amazing Team. All rights deserved. Every member of our creative family brings unique magic to
+                the
+                table - from pixel-perfect designers to code-wielding developers. Together, we turn ideas into digital
+                reality.
+            </p>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
